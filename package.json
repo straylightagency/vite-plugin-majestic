@@ -1,11 +1,12 @@
 {
   "name": "@straylightagency/vite-plugin-majestic",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Vite plugin for Majestic",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "src/index.js",
+  "type": "module",
+  "files": [
+    "src"
+  ],
   "private": false,
   "dependencies": {
     "fast-glob": "^3.3.3"
